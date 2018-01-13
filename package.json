@@ -1,0 +1,16 @@
+{
+  "name": "vzlogger2loxone",
+  "version": "0.0.1",
+  "description": "Converts vzlogger pushes to udp packets suitable for loxone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Stephan Häuslschmid",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "dgram": "^1.0.1",
+    "express": "^4.16.2"
+  }
+}
